@@ -105,11 +105,95 @@ span {
   font-style: italic;
 }
 
+.imgPNJ {
+ height: 150px;
+ width: 150px; 
+ }
+
 img {
-  width: 150px;
-  height: 150px;
+  max-height : 100%;
+width : auto;
 }
 
 carac { 
   margin-left: 25px;
  }
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 520px;
+  background-color: #555;
+  color: #fff;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  left: 25%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  padding: 5px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.toltip {
+  position: relative;
+  display: inline-block;
+}
+
+.toltip .toltiptext {
+  visibility: hidden;
+  width: 520px;
+  background-color: #555;
+  color: #fff;
+  text-align: justify;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  right: 25%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  padding: 5px;
+}
+
+.toltip .toltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  margin-left: -5px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.toltip:hover .toltiptext {
+  visibility: visible;
+  opacity: 1;
+}
