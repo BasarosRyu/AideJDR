@@ -104,3 +104,12 @@ span {
   float: right;
   font-style: italic;
 }
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+carac { 
+  margin-left: 25px;
+ }
