@@ -197,3 +197,7 @@ carac {
   visibility: visible;
   opacity: 1;
 }
+
+span b {
+  color: red;
+}
