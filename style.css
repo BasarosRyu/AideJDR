@@ -201,3 +201,19 @@ carac {
 span b {
   color: red;
 }
+
+.classe{ 
+width:100%
+ }
+
+ .classe td{
+width: 33%;
+border: solid 1px black;
+padding: 5px;
+margin-left: 5px;
+margin-right: 5px;
+ }
+
+ h1 {
+  border-bottom: dashed 1px black;
+ }
