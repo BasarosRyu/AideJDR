@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Aide JDR</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="banniere"></div>
+<head>
+  <meta charset="utf-8">
+  <title>Aide JDR</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="banniere"></div>
 
-    <div id="container">
-      <table width="100%" height="100%">
-        <td width="30%" height="100%"> <!-- Partie menu-->
-          <div id="menu-container">
-            <ul id="list">
-              <li class="list-li">Liste de PNJ</li>
-              <ul class="sub-ul">
-                <li class="displayDefault" data-id='humains.html'>Humains</li>
-                <li class="displayDefault" data-id='nains.html'>Nains</li>
-                <li class="displayDefault" data-id='elfes.html'>Nains</li>
-                <li class="displayDefault" data-id='orcs.html'>Orcs</li>
-                <li class="displayDefault" data-id='gobelins.html'>Gobelins</li>
-              </ul>
-              <li class="list-li">Tableau de loot</li>
-              <ul class="sub-ul">
-                <li class="displayDefault" data-id='vente.html'>Tableau des ventes</li>
-                <li class="displayDefault" data-id='loot.html'>Loot</li>
-              </ul>
+  <div id="container">
+    <table width="100%" height="100%">
+      <td width="30%" height="100%"> <!-- Partie menu-->
+        <div id="menu-container">
+          <ul id="list">
+            <li class="list-li">Liste de PNJ</li>
+            <ul class="sub-ul">
+              <li class="displayDefault" data-id='humains.html'>Humains</li>
+              <li class="displayDefault" data-id='nains.html'>Nains</li>
+              <li class="displayDefault" data-id='elfes.html'>Nains</li>
+              <li class="displayDefault" data-id='orcs.html'>Orcs</li>
+              <li class="displayDefault" data-id='gobelins.html'>Gobelins</li>
             </ul>
-          </div>
-        </td>
-        <td width="65%" height="100%" valign="top"> <!-- Partie contenu-->
-          <div id="chronique-container">
-        <p>
-          Tu trouveras dans la liste des PNJ diverses propositions selon les races. En laissant ton curseur sur chaque image, tu y verras un métier, un caractère et des particularités. Souvent légères et adaptables. En cliquant sur l'image tu pourras avoir l'image en grandeur nature.
-        </p>
-        <p>
-          Dans la table de Loot, tu trouveras un tableau des ventes, te proposant diverses propositions de prix, adaptables à ta guise selon les PNJS, la ville, l'environnement. Tu trouveras également une proposition de table de loot.
-        </p>
-           
-            </div>
-          </div>
-        </td>
-      </table>
-    </div>
+            <li class="list-li">Tableau de loot</li>
+            <ul class="sub-ul">
+              <li class="displayDefault" data-id='vente.html'>Tableau des ventes</li>
+              <li class="displayDefault" data-id='loot.html'>Loot</li>
+            </ul>
+            <li class="list-li">Idée Wow</li>
+            <ul class="sub-ul">
+              <li class="displayDefault" data-id='race.html'>Races</li>
+              <li class="displayDefault" data-id='classes.html'>Classes générales</li>
+              <li class="displayDefault" data-id='guerrier.html'>guerrier</li>
+              <li class="displayDefault" data-id='chasseur.html'>chasseur</li>
+              <li class="displayDefault" data-id='mage.html'>mage</li>
+              <li class="displayDefault" data-id='pretre.html'>pretre</li>
+              <li class="displayDefault" data-id='voleur.html'>voleur</li>
+              <li class="displayDefault" data-id='chaman.html'>chaman</li>
+              <li class="displayDefault" data-id='demoniste.html'>démoniste</li>
+              <li class="displayDefault" data-id='druide.html'>druide</li>
+            </ul>
+          </ul>
+        </div>
+      </td>
+      <td width="65%" height="100%" valign="top"> <!-- Partie contenu-->
+        <div id="chronique-container">
+          <table class="classe">
+            <tr>
+              <td> 
+                <h1>Guerrier</h1>
+                <i>Forgé pour la bataille, le guerrier est un monstre du combat prêt à se jeter dans la mêlée. Son but ? Être le dernier debout après avoir massacrer à tour de bras. LOL, j'adore dire des conneries.</i>
+                <h2> 1. Charge </h2>
+                <p> 
+                  Le PJ a soif de combat. Lorsqu'il n'est pas au contact d'un adversaire, le joueur peut effectuer gratuitement un déplacement de 10m pour venir au contact d'un adversaire. Il gagnera un +2 d'attaque au contact sur sa cible au cours de ce tour.
+                </p>
+                <h2> 2. Exécution (L)</h2>
+                <p>
+                  Le PJ est prêt à mettre fin à la vie de ce misérable adversaire. Lorsque ce dernier possède moins de 30% de ses PV, le PV, effectue une action d'attaque à laquelle il ajoute 1d6 de DM pour chaque rang atteint dans cette voie. 
+                </p>
+                <h2> 3. </h2>
+                <p> 
+                  Possibles idées : maitrise arme/ajout de maniement/bond héroique/autre?
+                </p>
+                <h2> 4. Cri de ralliement </h2>
+                <p> 
+                  Le PJ encourage ses alliés. D'un cri qui recouvre le champ de bataille, il motive ses troupes. Pour [Mod. FOR] tours, tous les membres du groupe gagnent, au choix du PJ : +2 DEF, +2 aux jets d'attaque ou 5PV temporaires.
+                </p>
+                <h2> 5. Armure de combat </h2>
+                <p> 
+                  Le PJ a désormais possibilité de porter de la plaque sans les malus d'encombrement.
+                </p>
+              </td>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="menu.js"></script>
-    <script type="text/javascript" src="chronique.js"></script>
-  </body>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+    </td>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="chronique.js"></script>
+</body>
 </html>
